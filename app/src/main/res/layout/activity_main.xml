@@ -1,0 +1,407 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	tools:ignore="NewApi">
+	
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top|center_horizontal"
+	    
+	    android:layout_marginTop="60dp"
+		android:gravity="center"
+		android:orientation="horizontal" 
+		android:background="@drawable/rounded_header"
+		
+ 	 >
+		<!-- <ImageView
+		android:id="@+id/img_paste"
+		android:layout_width="47dp"
+		android:layout_height="47dp"
+		android:background="@drawable/rounded_edittext"
+		android:padding="5dp"
+		android:src="@drawable/micro_icon" /> -->
+		<!-- <ImageView
+		android:id="@+id/img_micro"
+		android:layout_width="47dp"
+		android:layout_height="47dp"
+		android:background="@drawable/rounded_edittext"
+		android:padding="5dp"
+		android:src="@drawable/micro_icon" /> -->
+		 
+		<EditText
+		android:id="@+id/et_translate"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_marginLeft="2dp"
+		android:layout_marginRight="0dp"
+		android:gravity="left|center_vertical"
+		android:background="@drawable/rounded_edittext"
+		android:padding="2dp"
+		android:singleLine="true"
+		android:drawableLeft="@drawable/vietnamese"
+		android:drawablePadding="7dp"
+		android:focusable="true"
+		android:focusableInTouchMode="true"
+		android:textColor="#ffffff"
+		android:textColorHint="#f0f0f0"
+		android:textSize="17sp">
+		<requestFocus
+		     />
+		</EditText>
+		<ImageView
+		android:id="@+id/img_deleteText"
+		android:layout_width="32dp"
+		android:layout_height="32dp"
+		android:paddingBottom="2dp"
+		android:src="@android:drawable/ic_delete"
+		android:visibility="gone"
+		/>
+		<ImageView
+		android:id="@+id/img_resize_et"
+		android:layout_width="26dp"
+		android:layout_height="26dp"
+		android:paddingBottom="2dp"
+		android:layout_marginRight="3dp"
+		android:src="@drawable/icon_resize_white" 
+		/>
+		<FrameLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:background="@drawable/rounded_edittext"
+		android:padding="3dp">
+		
+		<ImageView
+		android:id="@+id/img_translate"
+		android:layout_width="30dp"
+		android:layout_height="30dp"
+		android:src="@drawable/enter_icon" 
+		android:visibility="gone"
+		/>
+		<ProgressBar
+        android:id="@+id/progressBarText"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:keepScreenOn="true"
+        android:visibility="gone"
+        />
+		</FrameLayout>
+	</LinearLayout>
+  <!--   <ImageView
+        android:id="@+id/respeak"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/docmau"
+        android:visibility="invisible" /> -->
+
+    <LinearLayout
+        android:id="@+id/lo_lv_translate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="114dp"
+        android:layout_marginBottom="50dp"
+        
+        >
+
+		<ListView
+		    android:id="@+id/lv_translate"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    
+		    android:alwaysDrawnWithCache="true"
+		    android:scrollbars="none"
+		    android:smoothScrollbar="true"
+		    android:soundEffectsEnabled="true"
+		    android:scrollingCache="true"
+		    android:drawingCacheQuality="low"
+		    
+        	>
+
+  		 </ListView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:layout_marginTop="120dp"
+    	>
+		
+    	
+    <RelativeLayout
+       	android:id="@+id/fl_searchvoid"
+    	android:layout_width="match_parent"
+    	android:layout_height="90dp"
+    	android:layout_gravity="bottom|center_horizontal"
+	    android:paddingTop="5dp"
+	    android:background="@drawable/fooder_tran"
+    
+    >
+		
+		<!-- <FrameLayout 
+		   	android:layout_width="match_parent"
+    		android:layout_height="45dp"
+    		android:layout_marginLeft="5dp"
+    		android:layout_marginRight="5dp"
+    		android:layout_marginTop=""
+    		android:layout_gravity="bottom|center_horizontal"
+	    	android:background="@drawable/rounded_header">
+		    
+		</FrameLayout> -->
+	<Button
+         android:id="@+id/btn_pay2dolar"
+         android:layout_width="wrap_content"
+         android:layout_height="34dp"
+         android:background="@drawable/rounded_button_pumpkin"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:text="Remove Ads"
+         android:textColor="@color/white"
+         android:textSize="15dp"
+         android:textStyle="bold"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="3dp"
+         />
+	<Button
+         android:id="@+id/btn_restartApp"
+         android:layout_width="wrap_content"
+         android:layout_height="34dp"
+         android:background="@drawable/rounded_button_pumpkin"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:text="Restart App"
+         android:textColor="@color/white"
+         android:textSize="15dp"
+         android:textStyle="bold"
+         android:visibility="gone"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="3dp"
+         />
+	
+	 <ImageView
+        android:id="@+id/imgcamera"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/camera_icon"
+        android:layout_alignBottom="@+id/imgicongallery"
+        android:layout_toLeftOf="@+id/imgicongallery"
+        android:layout_marginRight="6dp"
+         />
+	 
+	 
+	 <ImageView
+	    android:id="@+id/imgicongallery"
+	    android:layout_width="34dp"
+	    android:layout_height="34dp"
+	    android:layout_alignBaseline="@+id/qicon"
+	    android:src="@drawable/gallery_icon"
+	    android:layout_toLeftOf="@+id/imgiconqtrans"
+	    android:layout_alignBottom="@+id/imgiconqtrans"
+	    android:layout_marginRight="6dp"
+	    />
+	 
+	 <ImageView
+        android:id="@+id/imgiconqtrans"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/quicktrans_icon"
+        android:layout_toLeftOf="@+id/imgcenter"
+        android:layout_alignBottom="@+id/imgcenter"
+        
+         />
+	 <ImageView
+        android:id="@+id/imgcenter"
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+         />
+	<FrameLayout
+	    android:id="@+id/flvoid"
+    	android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        >
+
+    <ImageView
+        android:id="@+id/imgvoidon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/togglebutton_on" 
+        />
+
+    <ImageView
+        android:id="@+id/imgvoid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/clip_source"
+         /> 
+		
+	</FrameLayout>
+	
+      <ToggleButton
+        android:id="@+id/togglevoid"
+        style="@style/CustToggleTheme"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:background="@drawable/togglebuttonbg"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+        
+	<ProgressBar
+        android:id="@+id/progressBarTalk"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginBottom="2dp"
+        android:keepScreenOn="true"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+	 <ImageView
+        android:id="@+id/imgclear"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/icon_clear"
+        android:layout_toRightOf="@+id/imgcenter"
+        android:layout_alignBottom="@+id/imgcenter"
+        android:layout_marginBottom="6dp"
+        android:visibility="invisible"
+         />
+	 <ImageView
+        android:id="@+id/img_speaker"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/speaker_icon_yes"
+        android:layout_toRightOf="@+id/imgclear"
+        android:layout_alignBottom="@+id/imgclear"
+        android:layout_marginLeft="6dp"
+         />
+	 <ImageView
+        android:id="@+id/imginfo"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/info_icon"
+        android:layout_toRightOf="@+id/img_speaker"
+        android:layout_alignBottom="@+id/img_speaker"
+        android:layout_marginLeft="6dp"
+         />
+	<!-- <EditText
+	    android:id="@+id/edt_dich"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom|center_horizontal"
+	    android:layout_marginLeft="17dp"
+	    android:layout_marginRight="17dp"
+	    android:padding="5dp"
+	    android:text="test" 
+	    android:background="@drawable/rounded_edittext"
+	    android:drawableRight="@drawable/vietnamese">
+
+	    <requestFocus />
+	</EditText> -->
+
+	
+	
+	</RelativeLayout>
+  <!--  <ImageView
+        android:id="@+id/imgsetting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/setting"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="20dp" 
+        android:visibility="invisible"/>  -->
+
+   
+
+    
+<!--  -->
+	<com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:visibility="gone"
+        >
+    </com.google.android.gms.ads.AdView>
+		<!--<LinearLayout
+			android:id="@+id/adsbanner_audience_main"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_gravity="bottom|center_horizontal"
+			android:visibility="gone"
+			/>-->
+    <!-- <com.google.android.gms.ads.NativeExpressAdView
+    android:id="@+id/adView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    ads:adUnitId="@string/native_express_ads"
+    android:layout_gravity="bottom|center_horizontal"
+    ads:adSize="FULL_WIDTHx80">
+</com.google.android.gms.ads.NativeExpressAdView> -->
+     
+</LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="58dp"
+       android:layout_gravity="top"
+       android:background="@drawable/fooder"
+       android:gravity="fill_horizontal"
+       android:orientation="horizontal" >
+
+       <Spinner
+           android:id="@+id/spIn"
+           android:layout_width="148dp"
+           android:layout_height="42dp"
+           android:layout_gravity="left|center_vertical"
+           android:layout_marginLeft="4dp"
+           android:layout_weight="1"
+           android:background="@drawable/rounded_spinner"
+           android:padding="1dp" />
+
+       <ImageView
+           android:id="@+id/imghoandoi"
+           android:layout_width="39dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="1dp"
+           android:layout_marginRight="1dp"
+           android:layout_weight="0.3"
+           android:src="@drawable/hoandoi" />
+
+       <Spinner
+           android:id="@+id/spOut"
+           android:layout_width="148dp"
+           android:layout_height="42dp"
+           android:layout_gravity="right|center_vertical"
+           android:layout_marginRight="4dp"
+           android:layout_weight="1"
+           android:background="@drawable/rounded_spinner"
+           android:padding="1dp" />
+   </LinearLayout>
+  
+   
+   
+   
+</FrameLayout>

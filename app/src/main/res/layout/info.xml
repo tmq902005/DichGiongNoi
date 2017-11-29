@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/maincolor">
+
+    <ImageView
+        android:id="@+id/logo_info"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/txt_nameApp_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="VOICE TRANSLATOR"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" 
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/txt_App_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12dp"
+        android:textStyle="italic" 
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        android:textAlignment="center"
+        />
+ <TextView
+        android:id="@+id/txt_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:textAlignment="inherit"
+        android:text="Developed by Trương Minh Quân\nEmail: tm.quan@ufm.edu.vn"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="#ECF0F1"
+        android:visibility="invisible"
+        />
+
+ <LinearLayout
+     android:id="@+id/share_update_info"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:orientation="horizontal"
+     android:paddingBottom="7dp"
+     android:paddingTop="7dp"
+     android:visibility="invisible"
+     >
+
+     <Button
+         android:id="@+id/btn_share_app"
+         android:layout_width="160dp"
+         android:layout_height="36dp"
+         android:layout_marginRight="10dp"
+         android:background="@drawable/rounded_button_red"
+         android:drawableLeft="@drawable/icon_list_share"
+         android:drawablePadding="5dp"
+         android:paddingBottom="-20dp"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:paddingTop="-20dp"
+         android:text="Share"
+         android:textColor="@color/white"
+         android:textSize="15dp"
+         android:textStyle="bold|italic" />
+
+     <Button
+         android:id="@+id/btn_update_app"
+         android:layout_width="wrap_content"
+         android:layout_height="36dp"
+         android:layout_marginLeft="2dp"
+         android:background="@drawable/rounded_button"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:text="Check Update"
+         android:textColor="@color/white"
+         android:textSize="15dp"
+         android:textStyle="bold" />
+
+ </LinearLayout>
+
+<Button
+         android:id="@+id/btn_noads"
+         android:layout_width="wrap_content"
+         android:layout_height="36dp"
+         android:layout_marginLeft="2dp"
+         android:background="@drawable/rounded_button_pumpkin"
+         android:paddingLeft="10dp"
+         android:paddingRight="10dp"
+         android:text="Remove Ads"
+         android:textColor="@color/white"
+         android:textSize="15dp"
+         android:textStyle="bold"
+         android:visibility="invisible" />
+
+<TextView
+    android:id="@+id/txt_notenoads"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="restart the application when payment was successful"
+    android:textStyle="italic|bold"
+    android:textColor="@color/white"
+    android:textSize="10sp"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    android:visibility="gone" />
+
+
+
+ <ImageView
+     android:id="@+id/imgback_info"
+     android:layout_width="50dp"
+     android:layout_height="50dp"
+     android:layout_marginTop="10dp"
+     android:src="@drawable/back_icon"
+     android:visibility="invisible" />
+  
+ <!-- <com.google.android.gms.ads.NativeExpressAdView
+    android:id="@+id/adView_info"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    ads:adUnitId="@string/native_express_ads_info"
+    ads:adSize="FULL_WIDTHx132"
+    >
+</com.google.android.gms.ads.NativeExpressAdView> -->
+<com.google.android.gms.ads.AdView
+        android:id="@+id/adView_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        ads:adSize="FULL_WIDTHx85"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        >
+    </com.google.android.gms.ads.AdView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Powered by Yandex.Translate"
+    android:textStyle="italic"
+    android:textColor="@color/white"
+    android:textSize="10sp"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    android:visibility="invisible" />
+</LinearLayout>

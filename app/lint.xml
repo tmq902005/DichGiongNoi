@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="InlinedApi">
+        <ignore path="src/com/education/voicetranslator/guide.java" />
+        <ignore path="src/com/travel/interpretertravel/MainActivity.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src/com/education/voicetranslator/guide.java" />
+        <ignore path="src/com/education/voicetranslator/guide.java" />
+        <ignore path="src/com/travel/interpretertravel/MainActivity.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/education/voicetranslator/MainActivity.java" />
+        <ignore path="src/com/travel/interpretertravel/MainActivity.java" />
+    </issue>
+</lint>

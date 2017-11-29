@@ -1,0 +1,295 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gradle\
+* .gradle\3.5\
+* .gradle\3.5\file-changes\
+* .gradle\3.5\file-changes\last-build.bin
+* .gradle\3.5\taskHistory\
+* .gradle\3.5\taskHistory\taskHistory.lock
+* .gradle\buildOutputCleanup\
+* .gradle\buildOutputCleanup\built.bin
+* .gradle\buildOutputCleanup\cache.properties
+* .gradle\buildOutputCleanup\cache.properties.lock
+* Flags PNG.rar
+* Flags PNG\
+* Flags PNG\Afghanistan.png
+* Flags PNG\Albania.png
+* Flags PNG\Algeria.png
+* Flags PNG\Andorra.png
+* Flags PNG\Antigua-and-Barbuda.png
+* Flags PNG\Argentina.png
+* Flags PNG\Armenia.png
+* Flags PNG\Australia.png
+* Flags PNG\Austria.png
+* Flags PNG\Azerbaijan.png
+* Flags PNG\Bahamas.png
+* Flags PNG\Bahrain.png
+* Flags PNG\Bangladesh.png
+* Flags PNG\Barbados.png
+* Flags PNG\Belarus.png
+* Flags PNG\Belgium.png
+* Flags PNG\Belize.png
+* Flags PNG\Benin.png
+* Flags PNG\Bhutan.png
+* Flags PNG\Bolivia.png
+* Flags PNG\Bosnia-and-Herzegovina.png
+* Flags PNG\Botswana.png
+* Flags PNG\Brazil.png
+* Flags PNG\Brunei.png
+* Flags PNG\Bulgaria.png
+* Flags PNG\Burkina-Faso.png
+* Flags PNG\Burundi.png
+* Flags PNG\Cambodia.png
+* Flags PNG\Cameroon.png
+* Flags PNG\Canada.png
+* Flags PNG\Cape-Verde.png
+* Flags PNG\Central-African-Republic.png
+* Flags PNG\Chad.png
+* Flags PNG\Chile.png
+* Flags PNG\China.png
+* Flags PNG\Colombia.png
+* Flags PNG\Comoros.png
+* Flags PNG\Congo-(Democratic).png
+* Flags PNG\Congo-(Republic).png
+* Flags PNG\Costa-Rica.png
+* Flags PNG\Cote-d'Ivoire.png
+* Flags PNG\Croatia.png
+* Flags PNG\Cuba.png
+* Flags PNG\Cyprus.png
+* Flags PNG\Czech-Republic.png
+* Flags PNG\Denmark.png
+* Flags PNG\Djibouti.png
+* Flags PNG\Dominica.png
+* Flags PNG\Dominican-Republic.png
+* Flags PNG\East-Timor.png
+* Flags PNG\Ecuador.png
+* Flags PNG\Egypt.png
+* Flags PNG\El-Salvador.png
+* Flags PNG\Equatorial-Guinea.png
+* Flags PNG\Eritrea.png
+* Flags PNG\Estonia.png
+* Flags PNG\Ethiopia.png
+* Flags PNG\Fiji.png
+* Flags PNG\Finland.png
+* Flags PNG\Flag_of_Sri_Lanka.svg.png
+* Flags PNG\France.png
+* Flags PNG\Gabon.png
+* Flags PNG\Gambia.png
+* Flags PNG\Georgia.png
+* Flags PNG\Germany.png
+* Flags PNG\Ghana.png
+* Flags PNG\Grecee.png
+* Flags PNG\Grenada.png
+* Flags PNG\Guatemala.png
+* Flags PNG\Guinea-Bissau.png
+* Flags PNG\Guinea.png
+* Flags PNG\Guyana.png
+* Flags PNG\Haiti.png
+* Flags PNG\Honduras.png
+* Flags PNG\Hungary.png
+* Flags PNG\Iceland.png
+* Flags PNG\India.png
+* Flags PNG\Indonesia.png
+* Flags PNG\Iran.png
+* Flags PNG\Iraq.png
+* Flags PNG\Ireland.png
+* Flags PNG\Israel.png
+* Flags PNG\Italy.png
+* Flags PNG\Jamaica.png
+* Flags PNG\Japan.png
+* Flags PNG\Jordan.png
+* Flags PNG\Kazakhstan.png
+* Flags PNG\Kenya.png
+* Flags PNG\Kiribati.png
+* Flags PNG\Korea,-North.png
+* Flags PNG\Korea,-South.png
+* Flags PNG\Kosovo.png
+* Flags PNG\Kuwait.png
+* Flags PNG\Kyrgyzstan.png
+* Flags PNG\Laos.png
+* Flags PNG\Latvia.png
+* Flags PNG\Lebanon.png
+* Flags PNG\Lesotho.png
+* Flags PNG\Liberia.png
+* Flags PNG\Libya.png
+* Flags PNG\Liechtenstein.png
+* Flags PNG\Lithuania.png
+* Flags PNG\Luxembourg.png
+* Flags PNG\Macedonia.png
+* Flags PNG\Madagascar.png
+* Flags PNG\Malawi.png
+* Flags PNG\Malaysia.png
+* Flags PNG\Maldives.png
+* Flags PNG\Mali.png
+* Flags PNG\Malta.png
+* Flags PNG\Marshall-Islands.png
+* Flags PNG\Mauritania.png
+* Flags PNG\Mauritius.png
+* Flags PNG\Mexico.png
+* Flags PNG\Micronesia-(Federated).png
+* Flags PNG\Moldova.png
+* Flags PNG\Monaco.png
+* Flags PNG\Mongolia.png
+* Flags PNG\Montenegro.png
+* Flags PNG\Morocco.png
+* Flags PNG\Mozambique.png
+* Flags PNG\Myanmar.png
+* Flags PNG\Namibia.png
+* Flags PNG\Nauru.png
+* Flags PNG\Nepal.png
+* Flags PNG\Netherlands.png
+* Flags PNG\New-Zealand.png
+* Flags PNG\Nicaragua.png
+* Flags PNG\Niger.png
+* Flags PNG\Nigeria.png
+* Flags PNG\Norway.png
+* Flags PNG\Oman.png
+* Flags PNG\Pakistan.png
+* Flags PNG\Palau.png
+* Flags PNG\Panama.png
+* Flags PNG\Papua-New-Guinea.png
+* Flags PNG\Paraguay.png
+* Flags PNG\Peru.png
+* Flags PNG\Philippines.png
+* Flags PNG\Poland.png
+* Flags PNG\Portugal.png
+* Flags PNG\Qatar.png
+* Flags PNG\Romania.png
+* Flags PNG\Russia.png
+* Flags PNG\Rwanda.png
+* Flags PNG\Saint-Kitts-and-Nevis.png
+* Flags PNG\Saint-Lucia.png
+* Flags PNG\Saint-Vincent-and-the-Grenadines.png
+* Flags PNG\Samoa.png
+* Flags PNG\San-Marino.png
+* Flags PNG\Sao-Tome-and-Principe.png
+* Flags PNG\Saudi-Arabia.png
+* Flags PNG\Senegal.png
+* Flags PNG\Serbia.png
+* Flags PNG\Seychelles.png
+* Flags PNG\Sierra-Leone.png
+* Flags PNG\Singapore.png
+* Flags PNG\Slovakia.png
+* Flags PNG\Slovenia.png
+* Flags PNG\Solomon-Islands.png
+* Flags PNG\Somalia.png
+* Flags PNG\South-Africa.png
+* Flags PNG\South-Sudan.png
+* Flags PNG\Spain.png
+* Flags PNG\Sri-Lanka.png
+* Flags PNG\Sri-Lanka2.png
+* Flags PNG\Sudan.png
+* Flags PNG\Suriname.png
+* Flags PNG\Swaziland.png
+* Flags PNG\Sweden.png
+* Flags PNG\Switzerland.png
+* Flags PNG\Syria.png
+* Flags PNG\Taiwan.png
+* Flags PNG\Tajikistan.png
+* Flags PNG\Tanzania.png
+* Flags PNG\Thailand.png
+* Flags PNG\Togo.png
+* Flags PNG\Tonga.png
+* Flags PNG\Trinidad-and-Tobago.png
+* Flags PNG\Tunisia.png
+* Flags PNG\Turkey.png
+* Flags PNG\Turkmenistan.png
+* Flags PNG\Tuvalu.png
+* Flags PNG\Uganda.png
+* Flags PNG\Ukraine.png
+* Flags PNG\United-Arab-Emirates.png
+* Flags PNG\United-Kingdom.png
+* Flags PNG\United-States-of-America.png
+* Flags PNG\Uruguay.png
+* Flags PNG\Uzbekistan.png
+* Flags PNG\Vanuatu.png
+* Flags PNG\Vatican-City.png
+* Flags PNG\Venezuela.png
+* Flags PNG\Vietnam.png
+* Flags PNG\Yemen.png
+* Flags PNG\Zambia.png
+* Flags PNG\Zimbabwe.png
+* VoiceTranslator_key
+* google-services.json
+* ic_launcher-web.png
+* interpreter_travel
+* interpretertravel
+* proguard\
+* proguard\dump.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:27.+
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:19.1.0
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:19.1.0]
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\anjlab-iabv3-1.0.32.jar => app\libs\anjlab-iabv3-1.0.32.jar
+* libs\AudienceNetwork426.jar => app\libs\AudienceNetwork426.jar
+* libs\json_simple-1.1.jar => app\libs\json_simple-1.1.jar
+* libs\jsoup-1.10.2.jar => app\libs\jsoup-1.10.2.jar
+* lint.xml => app\lint.xml
+* proguard-project.txt => app\proguard-project.txt
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

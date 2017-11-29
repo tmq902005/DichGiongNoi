@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_marginTop="7dp"
+    
+   >
+    <TextView
+    android:id="@+id/tv_list_result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="test"
+    android:textSize="17dp"
+    android:layout_marginLeft="5dp"
+    android:padding="10dp"
+    android:layout_gravity="left"
+    android:textColor="#ffffff"
+    android:drawableRight="@android:drawable/ic_media_play"/>
+
+</LinearLayout>

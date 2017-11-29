@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ContriesOut">
+        <item >English</item>
+        <item >German</item>
+        <item >Japanese</item>
+        <item >Chinese</item>
+        <item >French</item>
+        <item >Korean</item>
+        <item >Italian</item>
+        <item >Vietnamese</item>
+    </string-array>
+    <string-array name="ContriesIn">
+        <item >English</item>
+        <item >German</item>
+        <item >Japanese</item>
+        <item >Chinese</item>
+        <item >French</item>
+        <item >Korean</item>
+        <item >Italian</item>
+        <item >Vietnamese</item>
+    </string-array>
+</resources>

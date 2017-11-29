@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Voice Translator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_ad_unit_id">ca-app-pub-0674483990944026/8118749795</string>
+    <string name="native_express_ads">ca-app-pub-0674483990944026/9025737399</string>
+    <string name="native_express_ads_info">ca-app-pub-0674483990944026/3752442990</string>
+    <string name="banner_ad_QCBieuNgu">ca-app-pub-0674483990944026/5338550199</string>
+
+    <!-- ca-app-pub-3940256099942544/6300978111 -->
+    <string name="title_activity_setting">Turn On/Off Quick Translate</string>
+    <string-array name="str_code_speech_in">
+        <item>en</item> <!-- Auto Detect -->
+        <item>ar</item>
+        <item>bn</item>
+        <item>my</item>
+        <item>cmn-Hans-CN</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>fil-PH</item>
+        <item>de</item>
+        <item>el</item>
+        <item>gu-IN</item>
+        <item>he-IL</item>
+        <item>hi</item>
+        <item>hu</item>
+        <item>id</item>
+        <item>it</item>
+        <item>ja-JP</item>
+        <item>kn-IN</item>
+        <item>km-KH</item>
+        <item>ko-KR</item>
+        <item>lo-LA</item>
+        <item>ms-MY</item>
+        <item>ml-IN</item>
+        <item>mr-IN</item>
+        <item>ne-NP</item>
+        <item>fa-IR</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>pa</item>
+        <item>ru</item>
+        <item>si-LK</item>
+        <item>es</item>
+        <item>cmn-Hant-TW</item>
+        <item>ta</item>
+        <item>te-IN</item>
+        <item>tr-TR</item>
+        <item>th-TH</item>
+        <item>uk-UA</item>
+        <item>ur-PK</item>
+        <item>vi</item>
+    </string-array>
+    <string-array name="str_code_language_out">
+        <item>ar</item>
+        <item>bn</item>
+        <item>my</item>
+        <item>zh</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>tl</item>
+        <item>de</item>
+        <item>el</item>
+        <item>gu</item>
+        <item>he</item>
+        <item>hi</item>
+        <item>hu</item>
+        <item>id</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>kn</item>
+        <item>km</item>
+        <item>ko</item>
+        <item>lo</item>
+        <item>ms</item>
+        <item>ml</item>
+        <item>mr</item>
+        <item>ne</item>
+        <item>fa</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>pa</item>
+        <item>ru</item>
+        <item>si</item>
+        <item>es</item>
+        <item>zh</item>
+        <item>ta</item>
+        <item>te</item>
+        <item>tr</item>
+        <item>th</item>
+        <item>uk</item>
+        <item>ur</item>
+        <item>vi</item>
+    </string-array>
+    <string-array name="str_code_language_in">
+        <item> </item>
+        <item>ar</item>
+        <item>bn</item>
+        <item>my</item>
+        <item>zh</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>tl</item>
+        <item>de</item>
+        <item>el</item>
+        <item>gu</item>
+        <item>he</item>
+        <item>hi</item>
+        <item>hu</item>
+        <item>id</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>kn</item>
+        <item>km</item>
+        <item>ko</item>
+        <item>lo</item>
+        <item>ms</item>
+        <item>ml</item>
+        <item>mr</item>
+        <item>ne</item>
+        <item>fa</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>pa</item>
+        <item>ru</item>
+        <item>si</item>
+        <item>es</item>
+        <item>zh</item>
+        <item>ta</item>
+        <item>te</item>
+        <item>tr</item>
+        <item>th</item>
+        <item>uk</item>
+        <item>ur</item>
+        <item>vi</item>
+    </string-array>
+
+    <string-array name="str_language_in">
+        <item>Auto Detect</item>
+        <item>Arabic</item>
+        <item>Bengali</item>
+        <item>Burmese</item>
+        <item>Chinese</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>French</item>
+        <item>Filipino</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Gujarati</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Hungarian</item>
+        <item>Indonesian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Kannada</item>
+        <item>Khmer</item>
+        <item>Korean</item>
+        <item>Lao</item>
+        <item>Malay</item>
+        <item>Malayalam</item>
+        <item>Marathi</item>
+        <item>Nepali</item>
+        <item>Persian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Punjabi</item>
+        <item>Russian</item>
+        <item>Sinhala</item>
+        <item>Spanish</item>
+        <item>Taiwanese</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+        <item>Turkish</item>
+        <item>Thai</item>
+        <item>Ukrainian</item>
+        <item>Urdu</item>
+        <item>Vietnamese</item>
+    </string-array>
+    <string-array name="str_language_out">
+        <item>Arabic</item>
+        <item>Bengali</item>
+        <item>Burmese</item>
+        <item>Chinese</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>French</item>
+        <item>Filipino</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Gujarati</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Hungarian</item>
+        <item>Indonesian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Kannada</item>
+        <item>Khmer</item>
+        <item>Korean</item>
+        <item>Lao</item>
+        <item>Malay</item>
+        <item>Malayalam</item>
+        <item>Marathi</item>
+        <item>Nepali</item>
+        <item>Persian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Punjabi</item>
+        <item>Russian</item>
+        <item>Sinhala</item>
+        <item>Spanish</item>
+        <item>Taiwanese</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+        <item>Turkish</item>
+        <item>Thai</item>
+        <item>Ukrainian</item>
+        <item>Urdu</item>
+        <item>Vietnamese</item>
+    </string-array>
+
+    <integer-array name="id_language_out">
+        <item>@drawable/arabic</item>
+        <item>@drawable/bengali</item>
+        <item>@drawable/burmese</item>
+        <item>@drawable/chinese</item>
+        <item>@drawable/danish</item>
+        <item>@drawable/dutch</item>
+        <item>@drawable/english</item>
+        <item>@drawable/french</item>
+        <item>@drawable/filipino</item>
+        <item>@drawable/german</item>
+        <item>@drawable/greek</item>
+        <item>@drawable/gujarati</item>
+        <item>@drawable/hebrew</item>
+        <item>@drawable/hindi</item>
+        <item>@drawable/hungarian</item>
+        <item>@drawable/indonesian</item>
+        <item>@drawable/italian</item>
+        <item>@drawable/japanese</item>
+        <item>@drawable/kannada</item>
+        <item>@drawable/khmer</item>
+        <item>@drawable/korean</item>
+        <item>@drawable/laos</item>
+        <item>@drawable/malay</item>
+        <item>@drawable/malayalam</item>
+        <item>@drawable/hindi</item>
+        <item>@drawable/nepali</item>
+        <item>@drawable/persian</item>
+        <item>@drawable/polish</item>
+        <item>@drawable/portuguese</item>
+        <item>@drawable/hindi</item>
+        <item>@drawable/russian</item>
+        <item>@drawable/tamil</item>
+        <item>@drawable/spanish</item>
+        <item>@drawable/taiwanese</item>
+        <item>@drawable/tamil</item>
+        <item>@drawable/hindi</item>
+        <item>@drawable/turkis</item>
+        <item>@drawable/thai</item>
+        <item>@drawable/ukrainian</item>
+        <item>@drawable/urdu</item>
+        <item>@drawable/vietnamese</item>
+    </integer-array>
+    <integer-array name="id_language_in">
+        <item>@drawable/autodetect</item>
+        <item>@drawable/arabic</item>
+        <item>@drawable/bengali</item>
+        <item>@drawable/burmese</item>
+        <item>@drawable/chinese</item>
+        <item>@drawable/danish</item>
+        <item>@drawable/dutch</item>
+        <item>@drawable/english</item>
+        <item>@drawable/french</item>
+        <item>@drawable/filipino</item>
+        <item>@drawable/german</item>
+        <item>@drawable/greek</item>
+        <item>@drawable/gujarati</item>
+        <item>@drawable/hebrew</item>
+        <item>@drawable/hindi</item>
+        <item>@drawable/hungarian</item>
+        <item>@drawable/indonesian</item>
+        <item>@drawable/italian</item>
+        <item>@drawable/japanese</item>
+        <item>@drawable/kannada</item>
+        <item>@drawable/khmer</item>
+        <item>@drawable/korean</item>
+        <item>@drawable/laos</item>
+        <item>@drawable/malay</item>
+        <item>@drawable/malayalam</item>
+        <item>@drawable/hindi</item>
+        <item>@drawable/nepali</item>
+        <item>@drawable/persian</item>
+        <item>@drawable/polish</item>
+        <item>@drawable/portuguese</item>
+        <item>@drawable/hindi</item>
+        <item>@drawable/russian</item>
+        <item>@drawable/tamil</item>
+        <item>@drawable/spanish</item>
+        <item>@drawable/taiwanese</item>
+        <item>@drawable/tamil</item>
+        <item>@drawable/hindi</item>
+        <item>@drawable/turkis</item>
+        <item>@drawable/thai</item>
+        <item>@drawable/ukrainian</item>
+        <item>@drawable/urdu</item>
+        <item>@drawable/vietnamese</item>
+    </integer-array>
+
+    <string-array name="hello_welcome">
+        <item>مرحبا</item>
+        <item>হ্যালো</item>
+        <item>မင်္ဂလာပါ</item>
+        <item>您好！</item>
+        <item>Hej</item>
+        <item>Hallo!</item>
+        <item>Hi! How are you</item>
+        <item>Salut!</item>
+        <item>Kumusta na kayo</item>
+        <item>Hallo!</item>
+        <item>Γεια σου!</item>
+        <item>હેલો</item>
+        <item>שלום!</item>
+        <item>नमस्ते!</item>
+        <item>Helló</item>
+        <item>Halo!</item>
+        <item>Ciao!</item>
+        <item>こんにちは！</item>
+        <item>ಹಲೋ</item>
+        <item>អ្នក​សុខសប្បាយ​ទេ</item>
+        <item>안녕!</item>
+        <item>ສະບາຍດີ</item>
+        <item>Hello!</item>
+        <item>ഹലോ</item>
+        <item>हॅलो</item>
+        <item>नमस्कार</item>
+        <item>سلام!</item>
+        <item>Cześć!</item>
+        <item>Olá!!</item>
+        <item>ਹੈਲੋ</item>
+        <item>Здравствуй!</item>
+        <item>හෙලෝ </item>
+        <item>¡Hola!</item>
+        <item>嗨!</item>
+        <item>வணக்கம்</item>
+        <item>హలో</item>
+        <item>Merhaba!</item>
+        <item>สวัสดี!</item>
+        <item>привіт!</item>
+        <item>خوش آمدید</item>
+        <item>Xin Chào!</item>
+    </string-array>
+    <string-array name="noSpeaker">
+        <item>Auto Detect</item>
+        <item>Arabic</item>
+        <item>Malayalam</item>
+        <item>Persian</item>
+        <item>Hebrew</item>
+       	<item>Urdu</item>
+        <item>Gujarati</item>
+        <item>Telugu</item>
+        <item>Marathi</item>
+        <item>Punjabi</item>
+        <item>Kannada</item>
+        <item>Burmese</item>
+        <item>Lao</item>
+    </string-array>
+
+    <string-array name="cameraOcr">
+        <item name="ara">Arabic</item>
+        <item name="chs">Chinese</item>
+        <item name="dan">Danish</item>
+        <item name="dut">Dutch</item>
+        <item name="eng">English</item>
+        <item name="fre">French</item>
+        <item name="fil">Filipino</item> <!--New-->
+        <item name="ger">German</item>
+        <item name="gre">Greek</item>
+        <item name="ita">Italian</item>
+        <item name="jpn">Japanese</item>
+        <item name="hun">Hungarian</item>
+        <item name="kor">Korean</item>
+        <item name="pol">Polish</item>
+        <item name="por">Portuguese</item>
+        <item name="rus">Russian</item>
+        <item name="spa">Spanish</item>
+        <item name="cht">Taiwanese</item>
+        <item name="tur">Turkish</item>
+        <item name="vie">Vietnamese</item>
+    </string-array>
+    <string-array name="Ocr_TextAPI"> <!--Su dung TEXTAPI-->
+        <item name="dan">Danish</item>
+        <item name="dut">Dutch</item>
+        <item name="eng">English</item>
+        <item name="fre">French</item>
+        <item name="fil">Filipino</item>
+        <item name="ger">German</item>
+        <item name="hun">Hungarian</item>
+        <item name="ita">Italian</item>
+        <item name="pol">Polish</item>
+        <item name="por">Portuguese</item>
+        <item name="spa">Spanish</item>
+        <item name="tur">Turkish</item>
+        <item name="vie">Vietnamese</item>
+    </string-array>
+    <string-array name="Ocr_Flag">
+        <item name="ara">@drawable/arabic</item>
+        <item name="chs">@drawable/chinese</item>
+        <item name="dan">@drawable/danish</item>
+        <item name="dut">@drawable/dutch</item>
+        <item name="eng">@drawable/english</item>
+        <item name="fre">@drawable/french</item>
+        <item name="fil">@drawable/filipino</item> <!--New-->
+        <item name="ger">@drawable/german</item>
+        <item name="gre">@drawable/greek</item>
+        <item name="ita">@drawable/italian</item>
+        <item name="jpn">@drawable/japanese</item>
+        <item name="hun">@drawable/hungarian</item>
+        <item name="kor">@drawable/korean</item>
+        <item name="pol">@drawable/polish</item>
+        <item name="por">@drawable/portuguese</item>
+        <item name="rus">@drawable/russian</item>
+        <item name="spa">@drawable/spanish</item>
+        <item name="cht">@drawable/taiwanese</item>
+        <item name="tur">@drawable/turkis</item>
+        <item name="vie">@drawable/vietnamese</item>
+    </string-array>
+    <string-array name="Ocr_Code">
+        <item name="ara">ara</item>
+        <item name="chs">chs</item>
+        <item name="dan">dan</item>
+        <item name="dut">dut</item>
+        <item name="eng">eng</item>
+        <item name="fre">fre</item>
+        <item name="fil">fil</item> <!--New-->
+        <item name="ger">ger</item>
+        <item name="gre">gre</item>
+        <item name="ita">ita</item>
+        <item name="jpn">jpn</item>
+        <item name="hun">hun</item>
+        <item name="kor">kor</item>
+        <item name="pol">pol</item>
+        <item name="por">por</item>
+        <item name="rus">rus</item>
+        <item name="spa">spa</item>
+        <item name="cht">cht</item>
+        <item name="tur">tur</item>
+        <item name="vie">vie</item>
+    </string-array>
+    
+    <string-array name="noVoice">
+        <item>Auto Detect</item>
+        <!-- <item>Bengali</item> -->
+        <!-- <item>Gujarati</item> -->
+        <!-- <item>Marathi</item> -->
+        <!-- <item>Tamil</item> -->
+        <!-- <item>Telugu</item> -->
+        <!-- <item>Urdu</item> -->
+        <item>Punjabi</item>
+        <!-- <item>Kannada</item> -->
+        <!-- <item>Malayalam</item> -->
+        <item>Burmese</item>
+        <!-- <item>Nepali</item> -->
+        <!-- <item>Khmer</item> -->
+        <!-- <item>Sinhala</item> -->
+    </string-array>
+    <string-array name="yandextranslate">
+        <item>Bengali</item>
+        <item>Gujarati</item>
+        <item>Marathi</item>
+        <item>Tamil</item>
+        <item>Telugu</item>
+        <item>Urdu</item>
+        <item>Punjabi</item>
+        <item>Kannada</item>
+        <item>Malayalam</item>
+        <item>Burmese</item>
+        <item>Nepali</item>
+        <item>Khmer</item>
+        <item>Sinhala</item>
+    </string-array>
+
+    <string-array name="OCRKeyList">
+        <item name="tmq902005@gmail.com">352810f71888957</item>
+        <item name="tm.quan@ufm.edu.vn">1e6cc9bd0888957</item>
+        <item name="minhquanufm@gmail.com">7e0b569d7f88957</item>
+        <item name="intertravel101@gmail.com">7316d8e23988957</item>
+        <item name="inter_travel1@outlook.com.vn">06831506db88957</item>
+        <item name="inter_travel3@outlook.com.vn">756a4a1be088957</item>
+        <item name="inter_travel2@outlook.com.vn">b4eb39af2288957</item>
+        <item name="inter_travel4@outlock.com.vn">900b7f058a88957</item>
+        <item name="inter_travel5@outlock.com.vn">47faf5d02d88957</item>
+        <item name="inter_travel6@outlook.com.vn">15ae66132b88957</item>
+        <item name="voicetranslator1@gmail.com">1b775aabf388957</item>
+        <item name="voicetranslator2@gmail.com">a0fbda32e588957</item>
+        <item name="voicetranslator3@gmail.com">27c672e8b688957</item>
+        <item name="voicetranslator4@gmail.com">977e78ae4188957</item>
+        <item name="voicetranslator5@gmail.com">bdaf30178588957</item>
+        <item name="voicetranslator6@gmail.com">b9cd95f42588957</item>
+        <item name="voicetranslator7@gmail.com">d08707caa988957</item>
+    </string-array>
+
+    <string-array name="YTranslateKeyList">
+        <item name="minhquanufm">trnsl.1.1.20160509T091840Z.4c4b2c3ad2bdd7bc.b629f8adb60f7d5f33065cf440412e7e9e35529f</item>
+        <item name="tmq902005">trnsl.1.1.20160504T034538Z.03f07ec5381df108.7222a0c7e7a1d29ffe735ee55c61e2aadaa9d672</item>
+        <item name="tm.quan">trnsl.1.1.20160509T092604Z.2b8f9fbfb9d7f112.7d9464b5429a48d3b584b36da130872c32aaeefb</item>
+        <item name="voicetranslator1">trnsl.1.1.20170607T064505Z.2a9c571076b90d09.de843dac2eb4b106b0e5440e2a14b7ede716e706</item>
+        <item name="voicetranslator2">trnsl.1.1.20170607T132624Z.d56de8cac8fe8ff2.9d7490991cd77327fb669ea6fb0a0aa9c0f13a61</item>
+        <item name="voicetranslator3">trnsl.1.1.20170607T132837Z.3c4608b7e1d53dcd.00ee8078b82fcb936c626bb03d8d18e6528eacfe</item>
+    </string-array>
+</resources>

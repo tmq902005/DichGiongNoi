@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    
+       >
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What's new!!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        
+        /> 
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:paddingTop="5dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="1dp"  
+    android:visibility="gone"
+    >
+    <ImageView
+        android:id="@+id/img_warning"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:src="@drawable/hindi"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        
+        />
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+	    <TextView
+	        android:id="@+id/txt_languagenew"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Punjabi Language"
+	        android:gravity="center_vertical"
+	        android:textSize="20dp"
+	        android:textStyle="bold|italic"
+	        android:drawableRight="@android:drawable/ic_media_play"
+	        android:textColor="#ffffff"
+	        />
+	   <!--  <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Quick Translate will display as on-screen bubble"
+	        android:textSize="10dp"
+	        android:textStyle="italic"
+	        android:textColor="#cccccc"
+	        /> -->
+   </LinearLayout>
+</LinearLayout>
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Update speech recognition:"
+    android:textSize="17sp"
+    android:textStyle="bold|italic"
+    android:textColor="#ffffff"
+    />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    android:textColor="#ffffff"
+    android:text="+  Bengali language\n+  Gujarati language\n+  Marathi language\n+  Tamil languagen\n+  Telugu language\n+  Urdu language\n+  Kannada language\n+  Malayalam language\n+  Nepali language\n+  Khmer language\n+  Sinhala language"
+    android:textSize="17sp"/>
+</LinearLayout>
